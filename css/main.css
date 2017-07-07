@@ -1,0 +1,805 @@
+body {
+background: url(../images/introback.png) no-repeat center center fixed;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+height: 100%;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;}
+min-width: 1144px;
+
+
+overflow: hidden;
+}
+
+input {
+    border: 5px solid #CCCCCC; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    height: 60px;
+    text-align: center;
+    background: #353333;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+input, select, textarea{
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus {
+    color: #CCCCCC;
+     font-weight: bold;
+}
+
+.wholething {
+margin: auto;
+  position: absolute;
+width: 100%;
+margin-top: 100px;
+}
+
+.intro {
+
+width: 100%;
+}
+
+.miniButton {
+height: 35px;
+width: 65px;
+font-size: 25px;
+font-family: "Arial";
+margin: 5px 5px 5px 5px;
+border: 5px solid #353333;
+background-color: #CCCCCC;
+float:left;
+
+text-align: center;
+font-weight: bold;
+padding-top: 5px;
+}
+
+.miniButton:hover {
+height: 35px;
+width: 65px;
+font-size: 25px;
+font-family: "Arial";
+border: 5px solid #CCCCCC;
+background-color: #353333;
+float:left;
+color:#CCCCCC;
+font-family: "Arial";
+text-align: center;
+font-weight: bold;
+padding-top: 5px;
+
+}
+
+
+
+
+
+p23 {
+
+
+}
+.miniButton2 {
+height: 35px;
+width: 65px;
+font-size: 25px;
+font-family: "Arial";
+color: #CCCCCC;
+
+font-size: 30px;
+border: 5px solid #CCCCCC;
+background-color: #353333;
+float:left;
+color:#CCCCCC;
+}
+
+.miniButton2 > p2 {
+
+color:#CCCCCC;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
+.betLabel {
+
+top: 15px;
+left: 24px;
+position: relative;
+
+}
+.credLabel {
+
+top: 15px;
+
+position: relative;
+
+}
+
+.depositLabel {
+
+top: 15px;
+left: 60px;
+position: relative;
+
+}
+
+.slots
+	{
+	
+      width: 161%;
+    height: 1200px;
+    position: relative;
+    background:url(../images/slotsss.svg);
+    background-size: 80%;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+       margin-top: 18%;
+	padding-right: 150px;
+	padding-left: 150px;
+ 	bottom: 319px;
+    left:31%;
+    padding-bottom: 20px;
+        margin: 6vw;
+	}
+	
+	#status {
+	font-size: 100%;
+	}
+
+
+.slotmachin {
+
+position: absolute !important;
+    width: 58%;
+        margin: 2vw;
+    margin-top: -7%;
+
+}
+#pics {
+position: relative;
+left: 530px;
+bottom: 840px;
+background-color: transparent;
+
+}
+	
+.pic {
+width: 18%;
+    height: 19%;
+    position: relative;
+    top: 239px;
+    left: 10%;
+    background-color: transparent;
+    display: inline-block;
+
+
+}
+
+
+
+.startintrobutton {
+
+position: absolute;
+height: 60px;
+width: 170px;
+padding: 1px 10px 10px 10px;
+margin-top: 20px;
+margin-left: 30px;
+border: 5px solid #353333 !important;
+background-color: #CCCCCC !important;
+float:left;
+text-align: center;
+font-size: 27px;
+display:none;
+}
+
+.skipintrobutton {
+
+position: absolute;
+height: 60px;
+width: 170px;
+padding: 1px 10px 10px 10px;
+margin-top: 20px;
+margin-left: 280px;
+border: 5px solid #353333 !important;
+background-color: #CCCCCC !important;
+float:left;
+text-align: center;
+font-size: 27px;
+}
+
+
+
+button {
+border: 5px solid #353333 !important;
+background-color: #CCCCCC !important;
+}
+
+.playbutton {
+
+font-size: 30px;
+text-align:center;
+height: 60px;
+width: 130px;
+padding: 1px 10px 10px 10px;
+right: 40px;
+
+position: relative;
+border: 5px solid #353333 !important;
+background-color: #CCCCCC !important;
+float:left;
+
+}
+
+.playbutton2 {
+
+ border: 5px solid #CCCCCC !important;
+background-color:  #353333 !important;
+height: 60px;
+right: 40px;
+
+position: relative;
+width: 130px;
+font-size: 30px;
+text-align:center;
+padding: 1px 10px 10px 10px;
+
+
+float:left;
+
+}
+
+.savebutton {
+
+  border: 5px solid #8D8E68;
+height: 30px;
+width: 100px;
+padding: 1px 10px 10px 10px;
+border-radius: 25px;
+background-color: #627C05;
+float:left;
+
+}
+
+.savebutton2 {
+
+  border: 5px solid #B5B581;
+height: 30px;
+width: 100px;
+padding: 1px 10px 10px 10px;
+border-radius: 25px;
+background-color: #7E9627;
+float:left;
+
+}
+
+.buttonDiv {
+    position: relative;
+    right: 38px;
+    width: 500px;
+    bottom: 100px;
+
+    float: left;
+
+}
+
+.cashbutton {
+
+ border: 5px solid #353333 !important;
+background-color: #CCCCCC !important;
+height: 60px;
+width: 130px;
+left: -31px;
+
+padding: 1px 10px 10px 10px;
+position: relative;
+font-size: 22px;
+vertical-align: middle;
+text-align:center;
+float:left;
+
+}
+
+.cashbutton2 {
+position: relative;
+ border: 5px solid #CCCCCC !important;
+background-color:  #353333 !important;
+height: 60px;
+width: 130px;
+left: -31px;
+
+font-size: 22px;
+text-align:center;
+vertical-align: middle;
+padding: 1px 10px 10px 10px;
+
+
+float:left;
+
+}
+.uiDiv {
+    left: 58%;
+    bottom: 38%;
+    float: left;
+    position: absolute;
+
+
+
+
+}
+
+.pics {
+    position: absolute;
+    width: 75%;
+    margin-top: -2%;
+}
+
+#status {
+position: absolute;
+    bottom: 55px;
+    width: 222%;
+
+   right: -42%;
+    text-align: center;
+}
+.bet {
+float: left;
+margin: 15px 15px 15px 15px;
+
+}
+.deposit {
+float: left;
+margin: 15px 15px 15px 15px;
+}
+
+.credits {
+    float: left;
+    margin:-38px 10px 15px 15px;
+    margin-left: 56%;
+    top: 16%;
+}
+
+#credits {
+margin-top: 8px;
+width: 100px;
+    height: 52px;
+font-size: 25px;
+}
+.statusbox {
+    position: absolute;
+    z-index: 1000;
+    margin-top: 60%;
+    left: 56%;
+    width: 100%;
+
+
+}
+
+#status h1 {
+font-size: 108% !important;
+
+}
+
+p {
+color: #353333;
+font-size: 130%;
+font-family: "Arial Black";
+text-shadow:
+   
+}
+
+p2 {
+color: #353333;
+font-family: "Arial Black";
+ text-shadow:
+ 
+
+}
+
+h1 {
+color:#353333;
+font-family: "Arial Black";
+ text-shadow:
+
+	text-align: center;
+	font-size: 170%;
+}
+
+h3 {
+color: #353333;
+font-family: "Arial Black";
+text-shadow:
+
+
+text-align: center;
+font-size: 110%;
+line-height: 5px;
+
+}
+
+
+.blackbox {
+background-color: transparent !important;
+
+}
+
+
+
+@media only screen and (min-device-width : 200px) and (max-device-width : 1200px) {
+
+						body {
+						background-color: red !important;
+						background: url(../images/introback2.png)
+						background-size: 80%;
+						}
+
+						.intro {
+						width: 1530px;
+						righT: 305px;
+						top: 200px;
+						position: relative;
+						 -ms-transform: rotate(-90deg); 
+							-webkit-transform: rotate(-90deg);
+							transform: rotate(-90deg);
+
+						}
+
+
+						.startintrobutton {
+						-ms-transform: rotate(-90deg); 
+							-webkit-transform: rotate(-90deg); 
+							transform: rotate(-90deg);
+							height: 40px;
+							width: 150px;
+							z-index: 999;
+							top: 790px;
+							right: 365px;
+	
+
+						}
+
+						.skipintrobutton { 
+						-ms-transform: rotate(-90deg); 
+							-webkit-transform: rotate(-90deg); 
+							transform: rotate(-90deg);
+							width: 150px;
+							z-index: 999;
+							top: 580px;
+							right: 365px;
+							height: 40px;
+
+						}
+						
+					
+					.slots {
+					
+						-ms-transform: rotate(-90deg);
+							-webkit-transform: rotate(-90deg); 
+							transform: rotate(-90deg);
+					width: 600px;
+					left: 1540px;
+					bottom: 400px;
+					
+					
+					}
+					
+					.pic {
+					width: 128px;
+					top: 129px;
+					left: 14px;
+					
+					
+					}
+					
+					.uiDiv {
+					
+					-ms-transform: rotate(-90deg); 
+							-webkit-transform: rotate(-90deg); 
+							transform: rotate(-90deg);
+							left: 1515px;
+							z-index: 999;
+							bottom: 1232px;
+				
+					}
+					
+					
+				.miniButton {
+					height: 15px;
+					width: 35px;
+					font-size: 10px;
+					font-family: "Arial";
+					margin: 5px 5px 5px 5px;
+					border: 3px solid #353333;
+					background-color: #CCCCCC;
+					float:left;
+
+					text-align: center;
+					font-weight: bold;
+					padding-top: 5px;
+					}
+					
+			
+
+					.miniButton:hover {
+					height: 15px;
+					width: 35px;
+					font-size: 10px;
+					font-family: "Arial";
+					border: 3px solid #CCCCCC;
+					background-color: #353333;
+					float:left;
+					color:#CCCCCC;
+					font-family: "Arial";
+					text-align: center;
+					font-weight: bold;
+					padding-top: 5px;
+
+					}
+
+
+
+
+
+					p23 {
+
+
+					}
+					.miniButton2 {
+					height: 15px;
+					width: 35px;
+					font-size: 10px;
+					font-family: "Arial";
+					color: #CCCCCC;
+
+					
+					border: 3px solid #CCCCCC;
+					background-color: #353333;
+					float:left;
+					color:#CCCCCC;
+					}
+
+					.miniButton2 > p2 {
+
+					color:#CCCCCC;
+					}
+
+						
+					h3 {
+					color: #353333;
+					font-family: "Arial Black";
+					text-shadow:
+
+
+					text-align: center;
+					font-size: 60%;
+					line-height: 5px;
+
+					}	
+					
+					p {
+					font-size: 80%;
+					
+					}
+					
+					depositLabel {
+					left:200px;
+					
+					}
+					
+					#credits {
+					margin-top: 8px;
+					width: 40px;
+					height: 40px;
+					font-size: 9px;
+					}
+					
+					
+					.playbutton {
+
+							font-size: 30px;
+							text-align:center;
+							height: 40px;
+							width: 75px;
+							padding: 1px 10px 10px 10px;
+							right: -140px;
+							bottom: -15px;
+							position: relative;
+							border: 3px solid #353333 !important;
+							background-color: #CCCCCC !important;
+							float:left;
+
+							}
+
+							.playbutton2 {
+
+							 border: 5px solid #CCCCCC !important;
+							background-color:  #353333 !important;
+							
+							right: -140px;
+							height: 40px;
+							width: 75px;
+							bottom: -15px;
+							position: relative;
+							
+							font-size: 30px;
+							text-align:center;
+							padding: 1px 10px 10px 10px;
+
+
+							float:left;
+
+							}
+							
+							.cashbutton {
+
+								 border: 3px solid #353333 !important;
+								background-color: #CCCCCC !important;
+								height: 40px;
+							width: 75px;
+								left: 170px;
+								bottom: -15px;
+								padding: 1px 10px 10px 10px;
+								position: relative;
+								font-size: 22px;
+								vertical-align: middle;
+								text-align:center;
+								float:left;
+
+								}
+
+								.cashbutton2 {
+								position: relative;
+								 border: 3px solid #CCCCCC !important;
+								background-color:  #353333 !important;
+								height: 40px;
+							width: 75px;
+								left: 170px;
+								bottom: -15px;
+								font-size: 22px;
+								text-align:center;
+								vertical-align: middle;
+								padding: 1px 10px 10px 10px;
+
+
+								float:left;
+
+								}
+								
+								.bet {
+								float: left;
+								margin: 5px 5px 5px 5px;
+
+								}
+								.deposit {
+								float: left;
+								margin: 5px 5px 5px 5px;
+								}
+
+								.credits {
+								float: left;
+								margin: 5px 10px 5px 5px;
+								}
+								
+								.statusbox {
+									position: relative;
+									top: -150px;
+									z-index: 9999;
+									left: 1320px;
+									-ms-transform: rotate(-90deg);
+							-webkit-transform: rotate(-90deg); 
+							transform: rotate(-90deg);
+									}
+									
+									h1 {
+									font-size: 80%;
+									
+									}
+
+						
+}
+
+
+
+
+@media screen and (min-device-width: 1500px) and (max-device-width: 3500px) {
+
+
+}
+
+
+@media screen and (min-device-width: 3500px) and (max-device-width: 4500px) {
+
+
+}
+
+/*@media screen and (min-device-width: 200px) and (max-device-width: 1000px) {
+
+
+
+}
+
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1500px) {
+
+
+}
+
+
+
+@media screen and (min-device-width: 1500px) and (max-device-width: 3500px) {
+
+
+}
+
+
+@media screen and (min-device-width: 3500px) and (max-device-width: 4500px) {
+
+
+}*/
+
+@media screen and (max-width: 1000px) {
+
+.slots {
+         width: 181%;
+    height: 1200px;
+    left: -30%;
+    position: relative;
+    background: url(../images/slotsss.svg);
+    background-size: 80%;
+    background-position: 0% 10%;
+    background-repeat: no-repeat;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    }
+    
+    .pics {
+    position: absolute;
+    width: 75%;
+    margin-top: -9%;
+    }
+    
+    .uiDiv {
+
+    bottom: 50%;
+ 
+    float: left;
+    position: absolute;
+    }
+    
+    .statusbox {
+        position: relative;
+    top: 26vw;
+    z-index: 1000;
+    left: 91%;
+}
+
+}

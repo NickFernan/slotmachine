@@ -1,0 +1,96 @@
+<head>
+ <meta name="viewport" content="">
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>	
+<link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+	<div class="blackbox">
+	
+	<div class="startintrobutton" id="startIt" data-flag="0"><h3>Start Intro</h3></div>
+	<div class="skipintrobutton" id="skipIt"><h3>Skip Intro</h3></div>
+	<!--<img class="intro" id="intro"  src="images/intro.svg"/>-->
+	<div id="wholething" class="wholething">
+	<div class="slotmachin">
+	<div class="statusbox">
+			<h1 id ='status'><h1>
+	</div>	
+	
+				<div class="slots">
+		
+		
+					<div class="pics">
+						<img name="picture" class="pic" id = "pic1" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+						<img name="picture" class="pic" id = "pic2" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+						<img name="picture" class="pic" id = "pic3" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+					</div>
+			
+				</div>
+				<div class="uiDiv">
+						<div class="bet" data-bet="">
+										<p class="depositLabel">BET</p>
+							<div name="bet" class="miniButton" type="radio" id="one"
+							data-value = 1 >1</div>  
+	
+							<div name="bet" class="miniButton" type="radio" id="two"
+							data-value = 2 >2</div>  
+							<br>
+							<div name="bet" class="miniButton" type="radio" id="three"
+							data-value = 3 >3</div>
+							<div name="bet" class="miniButton" type="radio" id="four"
+							data-value = 10 >10</div>
+						</div>
+						<div class="deposit">
+						<p class="betLabel">DEPOSIT</p>
+								<div class="miniButton" name="creds" data-val = 1  value= 1>1</div>
+								<div class="miniButton" name="creds" data-val = 5 value= 5>5</div>
+								<br>
+								<div class="miniButton" name="creds" data-val = 10 value= 10>10</div>
+								<div class="miniButton" name="creds" data-val = 20 value= 20>20</div>
+						
+						</div>
+					<div class="credits">
+					<p class="credLabel">CREDITS</p> <input type="text" data-val="" id = "credits" size="10"</>
+					</div>
+			
+				
+					<div class="buttonDiv">
+				
+						<div class="playbutton" id="play">
+							<h3>Play</h3>
+						</div>
+		
+					<div class="cashbutton" id="cashout">
+						<h3>Cash Out!</h3>
+					</div>
+			
+	
+					</div>
+		
+			
+					<div id="audioDiv">
+		
+					<audio id="win" src="./sound/laugh.mp3" controls preload="auto"/>				
+			
+							<audio id="start" src="./sound/clock.mp3" controls preload="auto"/>	
+			
+							<audio id="spin" src="./sound/suspense.mp3" controls preload="auto"/>	
+			
+							<audio id="cash" src="./sound/wolf.mp3" controls preload="auto"/>		
+				
+			
+			
+
+
+		</div>
+		
+		</div>
+	</div>
+	</div>
+	<img class="intro" src="images/intro.svg"/>
+</body>	

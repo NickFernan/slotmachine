@@ -1,0 +1,68 @@
+<head>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="./js/judge.js"></script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body class="full">
+	<h1>CWMD3200 Assignment 1 - Nick Fernandes</h1>
+	<div class="playbutton" id="startIt"><h3>Start Intro</h3></div>
+	<div class="playbutton" id="skipIt"><h3>Skip Intro</h3></div>
+	<img class="intro" id="intro"  src="images/intro.svg"/>
+	<div id="wholething">
+	<div class="statusbox">
+		<p id ='status'><p>
+	</div>	
+	<div class="slots">
+		
+		
+		<div>
+			<img name="picture" class="pic" id = "pic1" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+			<img name="picture" class="pic" id = "pic2" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+			<img name="picture" class="pic" id = "pic3" data-shape="" data-num="" data-color="" data-shapecolor="" data-outcome="" src="images/blackSquare.png"/>
+		</div>
+	</div>
+		<div>
+		<p>BET</p> 
+			<div name="bet" type="radio" id="one"
+			value = 1 ></div> <p2>1</p2> 
+	
+			<div name="bet" type="radio" id="two"
+			value = 2 ></div> <p2>2</p> 
+	
+			<div name="bet" type="radio" id="three"
+			value = 3 ></div> <p2>3</p2>
+		</div>
+		<div>
+		<p>DEPOSIT</p><select id = "deposit" size = "1">
+
+
+					<option name="creds"  value= 0>0</option>
+					<option name="creds"  value= 5>5</option>
+					<option name="creds"  value= 10>10</option>
+					<option name="creds"  value= 20>20</option>
+
+				</select>
+		</div>
+		<p>CREDITS:</p> <input type="text" id = "credits" value = "0" size="10"</> <br />
+		<p id = "tester"></p> <br />
+
+		<div>
+		<div class="playbutton" id="play">
+			<h3>Playdagame</h3>
+		</div>
+		<div  class="playbutton" id="save">
+			<h3>Save</h3>
+		</div>
+		<div class="playbutton" id="cashout">
+			<h3>Cash Out!</h3>
+		</div>
+		</div>
+
+	</div>
+	</div>
+</body>	
